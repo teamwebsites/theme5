@@ -1,0 +1,85 @@
+/*
+* Theme Name: Excellence
+* Description:  With 3 different header styles, your new website will adapt to your club's identity. Featuring a crisp clean home page with an optional welcome message and responsive news slider above the fold. A new Club Events feature has also been added to the home page to allow you to communicate forthcoming club and team events to members, players and parents.
+* Author:  Team Websites
+* Template: theme1
+* Template Version: 0.0.1
+* Version: 0.0.1
+* GitHub Theme URI: https://github.com/teamwebsites/theme5
+* Text Domain: Elite-excellence
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+main article .vcard {margin-bottom: 0px !important;}
+
+#fbhi { margin-left: 8.5px; background: #3B5998; margin-right: 4.5px; }
+.teamwebsites-social_links a, .teamwebsites-social_links, .clubwebsite_login {float: left;}
+.twheader-si { padding-top: 0.5px; text-align: center !important; color: #fff; display: inline-block; font-size: 10px; border-radius: 50%; height: 20px; width: 20px; }
+#twhi { background: #00aced; margin-right: 9px; }
+.login-logout {display: -webkit-flex; display: flex; align-items: center; -webkit-align-items: center;}
+.twheader-si i {height: 100%; display: -webkit-flex; display: flex; align-items: center; -webkit-align-items: center; justify-content: center; -webkit-justify-content: center;}
+
+header .col-lg-8{margin-bottom: -30px !important;}
+
+.top-header + div {position: relative;}
+
+footer {text-align: center;}
+
+.footer-sponsors-affiliations {padding: 5px 0px !important;}
+
+#ms-metabox-wrapper table {padding-top: 7px; font-size: 85%;} #ms-metabox-wrapper {margin: 12px 6px !important;}
+.loginformfield input[type="password" i], .loginformfield input[type="text" i] {padding: 7.5px 47px !important;}
+#ms-metabox-wrapper th {border-bottom: 1px dotted #b7b7b7; padding-bottom: 6px; margin-bottom: 5px !important; width: 50%; text-align: left;} #ms-metabox-wrapper td + td {text-align: center;}
+
+.login-logout {margin-top: 4px; clear: both; flex: 100%; font-weight: 500; font-size: 11.5px;}
+header.sticky #site-navigation .sub-menu a, #site-navigation .sub-menu a {color: #000 !important;}
+.outerheadercontainer {padding-top: 0px !important; padding-bottom: 0px !important; display: flex; flex-wrap: wrap; align-items: center; justify-content: center;}
+header.sticky:before {opacity: 0.86; height: 100% !important; width: 100% !important; margin-top: 0px !important;}
+header.sticky #adjustslightly .container {width: 55px !important;} header.sticky .header-right {display: none !important;}
+header.sticky .header-left {width: 55px;}
+header.sticky {background: transparent !important;}
+header.sticky .headerblock { display: none !important; }
+header.sticky nav { width: calc(100% - 72px) !important; background: transparent !important; }
+header.sticky #bannerright:before {border-width: 0 0 200px 40em !important;}
+.header #logo {max-width: 55px;}
+
+.swiper-pagination-bullet {background: #fff !important;}
+
+.leadsection_alt {display: flex; align-items: center; flex-wrap: wrap;}
+.leadsection_alt {margin: 18px 0px;}
+.swiper-slide {text-decoration: none; color: inherit !important;}
+.swiper-slide {min-height: 260px !important; height: auto !important;}
+.swiper-slide:hover, .swiper-slide:focus {text-decoration: underline !important; text-underline-position: under;}
+.welcome-home .welctxt {margin-bottom: 40px; display: block; clear: both; width: 80%; padding-right: 11px;}
+
+.leadsection_alt {margin-bottom: 3px !important;}
+
+#welcome {padding: 15px 20px; background: rgba(0,0,0,0.06);}
+#welcome h3 { margin-bottom: 5px; padding-bottom: 6.5px; font-size: 17px; font-weight: 700; text-transform: uppercase; }
+
+.welcome-home {color: #fff; position: relative; padding: 60px 0px; background-position: top center !important; background-repeat: no-repeat; background-size: cover; background-attachment: scroll; width: 100%; min-height: 300px;}
+.welcome-home #welcome-text {position: relative; z-index: 11;}
+.welcome-home #welcome-text h3 {font-size: 21px;}
+.welcome-home section {background-position: center; height: 180px; width: 100%; margin-bottom: 11px; display: block; background-size: cover !important; background-repeat: no-repeat; overflow: hidden;}
+.welcome-home #welcome-text p {font-size: 14px; line-height: 155% !important;}
+.welcome-home:before {z-index: 0; display: block; height: 100%; width: 100%; content: ""; position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; pointer-events : none; background-image : linear-gradient(to bottom, rgba(0,0,0, 0.15), rgba(0,0,0, 0.84) 90%);}
+.welcome-home h3 {margin: 0px;}
+
+@media screen and (max-width: 950px) { .welcome-home .welctxt {width: 100% !important;} .swiper-container-horizontal>.swiper-pagination-bullets {display: none !important;} }
+
+.belowheader {background: transparent !important;}
+.getsmllr h2 {margin-top: 0px !important; margin-bottom: 0px !important;}
+main ul, article ul, article ol, main ol {padding: 5px 25px; font-family: inherit !important; font-size: inherit !important;}
+.info {background: grey; color: #000; font-size: 12.6px; padding: 3px 11px;}
+.info { background: rgba(206, 206, 206, 0.51); color: #000; margin: 0px 0px 12px 0px; font-size: 11.8px; padding: 5.9px 11px; }
+.info, .post-thumbnail {display: block; clear: both;}
+.bha {background: rgba(195, 195, 195, 0.15); padding: 10px 0px;}
+.info .byline {display: inline-block;}
+footer p, .footer-left p {font-size: 12.3px !important; font-family: inherit !important;}
+.footer-left a {text-decoration: none;}
+.footer-left a:hover, .footer-left a:focus {text-decoration: underline;}
+.info p, .info {font-family: inherit !important;}
+.info p {font-size: inherit !important;}
+.social_media_link, .social_media_link .fa {color: #fff !important;}
+blockquote {background: #dadada; -webkit-margin-start: 25px; -webkit-margin-end: 8px; position: relative; padding: 2px 22px; color: #0c0c0c;} blockquote:before { content: ""; background: url(https://www.teamwebsites.co.uk/quote.png) #e2e2e2; padding: 5px; background-repeat: no-repeat; background-position: center; background-size: 50%; display: block; position: absolute; left: -40px; border-radius: 50%; width: 40px; height: 40px; top: calc(50% - 25px); bottom: 0px; }
